@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem auto 2rem;
+}
+.button {
+  font: inherit;
+  border: 1px solid #4ea9cc;
+  background: #4ea9cc;
+  color: white;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  margin: 1rem;
+  border-radius: 2px;
+  min-width: 200px;
+}
+
+.button:hover,
+.button:active {
+  background: #398bab;
+  border-color: #398bab;
+}
+
+.button:focus {
+  outline: none;
+}
